@@ -1,7 +1,7 @@
-package koneksi;
-
-public class Database{
-    public static void hubungkan(){
-        System.out.println("Database Terhubung...");
+import koneksi.Database;
+public class main{
+public static void main (String [] args){
+        System.out.println("ini program main");
+        Database.hubungkan();
     }
 }
